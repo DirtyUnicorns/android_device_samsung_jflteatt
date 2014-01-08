@@ -16,4 +16,4 @@
 
 PRODUCT_MAKEFILES := \
 	$(LOCAL_DIR)/aosp_jflteatt.mk \
-        $(LOCAL_DIR)/du_jflteatt.mk 
+        $(LOCAL_DIR)/du.mk 
