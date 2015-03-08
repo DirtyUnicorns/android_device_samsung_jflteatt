@@ -26,6 +26,9 @@ include device/samsung/jf-common/BoardConfigCommon.mk
 # inherit from the proprietary version
 -include vendor/samsung/jf-gsm-common/BoardConfigVendor.mk
 
+# bootloader
+TARGET_BOOTLOADER_BOARD_NAME := jflteatt
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := jflteatt,jflte
 
